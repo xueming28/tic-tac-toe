@@ -28,10 +28,12 @@
 				window.alert("此位置無法選取！");
 			} else if (player == 1) {
 				currentSelection.innerHTML = 'X'; 
+				currentSelection.style.color = 'red';
 				player = 2; 
 				count++; 
 			} else if (player == 2) {
 				currentSelection.innerHTML = 'O'; 
+				currentSelection.style.color = 'blue';
 				player = 1; 
 				count++;
 			}
